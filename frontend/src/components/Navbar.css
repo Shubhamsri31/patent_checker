@@ -1,0 +1,15 @@
+.navbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 2rem; border-bottom: 1px solid var(--border);
+  background-color: var(--surface); flex-shrink: 0;
+}
+.navbar-logo { display: flex; align-items: center; gap: 0.75rem; font-size: 1.25rem; font-weight: 700;}
+.navbar-logo svg { color: var(--accent); width: 24px; height: 24px; }
+.info-button-nav {
+  display: flex; align-items: center; gap: 0.5rem;
+  background: none; border: 1px solid transparent; color: var(--secondary-text);
+  padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer;
+  transition: all 0.2s; font-size: 1rem;
+}
+.info-button-nav:hover { color: var(--accent); background-color: var(--accent-light); }
+.info-button-nav i { font-size: 1.2rem; }

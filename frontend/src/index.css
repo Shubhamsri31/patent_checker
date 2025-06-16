@@ -1,0 +1,12 @@
+:root {
+  --background: #f4f7f9; /* Lighter off-white */
+  --surface: #ffffff;   /* Pure white */
+  --border: #e2e8f0;     /* Light gray */
+  --border-gradient: linear-gradient(90deg, #8b5cf6, #3b82f6, #14b8a6);
+  --primary-text: #0f172a; /* Dark slate for high contrast */
+  --secondary-text: #64748b;
+  --accent: #3b82f6; /* A calmer blue */
+  --accent-light: #eff6ff;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+body { background-color: var(--background); font-family: var(--font-sans); margin: 0; }
