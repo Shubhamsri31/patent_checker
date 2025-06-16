@@ -51,5 +51,4 @@ Follow these steps to run the PatentAI Analyst on your local machine.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://your_repository_url/patent-ai.git
-cd patent-ai
+git clone https://github.com/Shubhamsri31/patent_checker.git
